@@ -45,7 +45,7 @@ public class Scythe extends AbstractService<Main> {
     @EventHandler(priority = EventPriority.HIGH)
     public void onBulletImpact(EntityDamageByEntityEvent event) {
         if (event.getDamager() instanceof Arrow && bullets.contains(event.getDamager().getEntityId())) {
-            Arrow bullet = (Arrow) event.getEntity();
+            Arrow bullet = (Arrow) event.getDamager();
             bullets.remove((Integer) bullet.getEntityId());
 
             if (event.getEntity() != null && event.getEntity() instanceof LivingEntity) {
