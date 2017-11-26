@@ -1,2 +1,7 @@
 # sg-shop
-Shop plugin for the shadow.ga server. Credits to the TFM devs for some of the components.
+Standalone extension for the server; adding shop and melee features.
+
+### Credit to:
+ - OxLemonxO (server dev)
+ - UMCM development team (original)
+ - TF development team (components)
