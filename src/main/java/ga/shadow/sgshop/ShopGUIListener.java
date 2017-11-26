@@ -55,6 +55,10 @@ public class ShopGUIListener extends AbstractService<Main> {
             int thorHammerPrice = ConfigEntry.SHOP_LOGIN_MESSAGE_PRICE.getInteger();
             int crescentRosePrice = ConfigEntry.SHOP_CRESCENT_ROSE_PRICE.getInteger();
             int minigunPrice = ConfigEntry.SHOP_MINIGUN_PRICE.getInteger();
+            if(is == null || sd == null)
+            {
+                return;
+            }
             if (is.getType().equals(Material.NAME_TAG) && !sd.isCustomLoginMessage() && canAfford(customLoginMessagePrice, coins)) {
                 if (
                         TotalFreedomMod.plugin().al.getAdmin(p) != null && TotalFreedomMod.plugin().al.getAdmin(p).isActive()) {
