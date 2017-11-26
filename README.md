@@ -1,5 +1,5 @@
 # sg-shop
-Standalone extension for the server; adding shop and melee features.
+Standalone extension for the server, adding shop and melee features.
 
 ### Credit to:
  - OxLemonxO (server dev)
