@@ -107,8 +107,8 @@ public class ShopGUIListener extends AbstractService<Main> {
                 plugin.sh.save(sd);
                 p.closeInventory();
                 p.sendMessage(ChatColor.GREEN + "Your login message is now " + createLoginMessage(p, sd.getLoginMessage()));
-            } else if (is.getItemMeta().getDisplayName().equals(ChatColor.GOLD + "UnraveledMC Addict")) {
-                sd.setLoginMessage("an &7&lUnraveled&8&lMC &e&lAddict");
+            } else if (is.getItemMeta().getDisplayName().equals(ChatColor.GOLD + "shadow.ga Addict")) {
+                sd.setLoginMessage("an &7&lshadow.&8&lga &e&lAddict");
                 plugin.sh.save(sd);
                 p.closeInventory();
                 p.sendMessage(ChatColor.GREEN + "Your login message is now " + createLoginMessage(p, sd.getLoginMessage()));
