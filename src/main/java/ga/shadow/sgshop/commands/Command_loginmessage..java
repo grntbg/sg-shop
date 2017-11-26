@@ -51,7 +51,7 @@ public class Command_loginmessage extends FreedomCommand
         ItemMeta m = is.getItemMeta();
         m.setDisplayName(color + name);
         List<String> l = new ArrayList();
-        l.add(ChatColor.AQUA + player.getName() + " is an " + ChatColor.GREEN + " Operator " + ChatColor.AQUA );
+        l.add(ChatColor.AQUA + player.getName() + " is an" + ChatColor.GREEN + " Operator" + ChatColor.AQUA );
         l.add(ChatColor.AQUA + "and " + FUtil.colorize(message));
         m.setLore(l);
         is.setItemMeta(m);
