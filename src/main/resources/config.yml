@@ -1,0 +1,29 @@
+shop:
+  # Enable the shop
+  enabled: true
+
+  # Shop prefix
+  prefix: '&7&l[&8&lsh.ga shop&7&l]'
+
+  # How much should colored chat cost
+  colored_chat_price: 50
+
+  # How much should login messages cost
+  login_message_price: 100
+
+  # How much should the Thor Hammer cost
+  thor_hammer_price: 150
+
+  # How much should Crescent Rose cost
+  scythe_price: 300
+
+  # How much should it cost a player to use Crescent Rose per attack
+  scythe_use_price: 15
+
+  # How much should the minigun cost
+  minigun_price: 200
+  #Vote message
+  vote_message: "{username} has voted for shadow.ga, earning 30 coins."
+
+  #Coins per vote
+  coins_per_vote: 30

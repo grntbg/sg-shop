@@ -1,0 +1,5 @@
+name: sg-shop
+version: 1.0
+main: ga.shadow.sgshop.Main
+depend: [Aero, Votifier, TotalFreedomMod]
+author: OxLemonxO
