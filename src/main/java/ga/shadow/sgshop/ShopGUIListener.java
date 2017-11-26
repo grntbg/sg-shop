@@ -129,7 +129,7 @@ public class ShopGUIListener extends AbstractService<Main> {
     public String createLoginMessage(Player player, String msg) {
         String loginMessage;
         if (TotalFreedomMod.plugin().al.getAdmin(player) == null)
-            loginMessage = ChatColor.AQUA + player.getName() + " is an " + ChatColor.GREEN + " Operator " + ChatColor.AQUA + " and " + ChatColor.translateAlternateColorCodes('&', msg);
+            loginMessage = ChatColor.AQUA + player.getName() + " is an " + ChatColor.GREEN + "Operator" + ChatColor.AQUA + " and " + ChatColor.translateAlternateColorCodes('&', msg);
         else
             loginMessage = null;
         return loginMessage;
